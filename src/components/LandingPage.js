@@ -1,6 +1,9 @@
 import React from 'react'
 import "../Styles/landingPage.css"
 import Navbar from './Navbar'
+import Dyning from './Dyning'
+import MugAdvertise from './MugAdvertise'
+import OurMugs from './OurMugs'
 function LandingPage() {
   return (
     <>
@@ -23,6 +26,9 @@ function LandingPage() {
 
     </div>
     <Navbar/>
+    <Dyning/>
+    <MugAdvertise/>
+    <OurMugs/>
     </>
   )
 }

@@ -1,0 +1,118 @@
+.smallMug{
+    display: flex;
+    width: 50%;
+    margin: 100px auto;
+   
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.mugContainer img{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+.dyningSection{
+    width: 100vw;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(239, 221, 221, 0.797);
+}
+.h4Con{
+    text-align: left;
+    font-weight: 100;
+    margin: 20px;
+}
+.pCon{
+    text-align: left;
+  
+    margin: 20px;
+}
+.pCon button{
+    border: none;
+    text-decoration: underline;
+    background-color: rgba(239, 221, 221, 0.797);
+    padding: 7px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main-manu{
+   background-image: url("../assests/menuBG.jpg");
+   background-repeat: no-repeat;
+  
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+   width: 100vw;
+   height: 800px;
+
+}
+.menuItem{
+    object-fit: contain;
+  
+}
+.menuItem img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.manuCard{
+display:grid;
+grid-template-columns: auto auto;
+width: 50%;
+margin: 0px auto;
+height: 400px !important;
+background-color: white;
+z-index: 100 !important;
+
+}
+.menuItem{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 2px solid brown;
+    margin: auto;
+}
+.itemInfo{
+    text-align: left;
+    margin-left: 25px;
+    width: 50%;
+    height: 80px;
+   
+}
+.itemInfo h6{
+    color: rgb(253, 69, 69);
+}
+.itemInfo p{
+    margin-top: -20px;
+    font-size: smaller;
+    width: 100%;
+}
+#dyning-mug{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 100px;
+    z-index: 500;
+    margin-top: -80px;
+}
+#cafe-logo{
+    width: 50vw;
+    height: 200px;
+    object-fit: cover;
+   z-index: -1;
+    margin-bottom: -50px;
+}
+.abcd{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}

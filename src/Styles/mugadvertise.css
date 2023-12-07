@@ -1,0 +1,24 @@
+.mugAdvertiser{
+    background-image: url("../assests/abc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100vw;
+    height: 500px;
+}
+.advCon{
+    text-align: right;
+    width: 500px;
+    height: 400px;
+    float: right;
+    margin: 0px 100px;
+   
+}
+
+.mugAdv{
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+}

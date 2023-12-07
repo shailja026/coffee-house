@@ -1,0 +1,43 @@
+.allMugs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allMugs img{
+width: 250px;
+height: 300px;
+object-fit: cover;
+margin: 20px;
+}
+.allMugs img:nth-child(even){
+    margin-top: 150px;
+}
+.ourPro{
+    height: auto;
+    padding: 5px;
+    width: 100vw;
+}
+.ourConMug{
+    width: 55%;
+    margin: auto;
+}
+button{
+    padding: 9px;
+    margin: 4px;
+    border: 1px solid brown;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 6px;
+    background:transparent;
+    cursor: pointer;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+span{
+    color: brown;
+}
