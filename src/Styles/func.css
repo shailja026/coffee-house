@@ -1,0 +1,27 @@
+.funVideo{
+    width: 100vw;
+    height: 400px;
+    background-image: url("../assests/px.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+}
+
+.secVideo{
+    background-image: url("../assests/nestely.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: -200px;
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+}
