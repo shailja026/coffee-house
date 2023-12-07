@@ -13,9 +13,9 @@
       name: "STARTER",
       price: "25",
       features: [
-        "2 hours of excercises",
-        "Free consultaion to coaches",
-        "Access to The Community",
+        "Multi-steps Zaps",
+        "3 Premium app",
+        "2 Users team",
       ],
     },
     {
@@ -32,9 +32,10 @@
       name: "PROFESSIONAL",
       price: "30",
       features: [
-        "5 hour of excercises",
-        "Free consultaion of Coaches",
-        "Accessto minibar",
+        "Multi-steps Zaps",
+        "Unlimeted Premium",
+        "50 users team",
+        "Shared workshop"
       ],
     },
     {
@@ -51,9 +52,11 @@
       name: "COMPANY",
       price: "45",
       features: [
-        "8 hours of excercises",
-        "Consultation of Private Coach",
-        "Free Fitness Merchandises",
+        "Multi-steps Zaps",
+        "Unlimeted Premium",
+        "50 users team",
+        "Shared workshop",
+        "advance admin"
       ],
     },
   ];

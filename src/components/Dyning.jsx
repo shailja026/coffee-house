@@ -68,7 +68,7 @@ function Dyning() {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis
             quam iste temporibus vitae. Dolor, dolorum?
           </p>
-          <button>ABOUT US</button>
+          <button style={{background:"brown" , color:"white"}}>ABOUT US</button>
         </div>
       </div>
 

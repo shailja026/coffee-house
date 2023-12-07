@@ -7,6 +7,7 @@ import OurMugs from "./OurMugs";
 import Functional from "./Functional";
 import Plans from "./Plans";
 import Footer from "./Footer";
+import FAQ from "./FAQ";
 
 function LandingPage() {
   return (
@@ -37,6 +38,7 @@ function LandingPage() {
       <MugAdvertise />
       <OurMugs />
       <Functional />
+      <FAQ/>
       <Plans/>
       <Footer/>
     </>

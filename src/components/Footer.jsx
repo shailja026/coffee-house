@@ -1,102 +1,49 @@
 import React from 'react'
-
+import "../Styles/footer.css"
+import { FaTwitter } from "react-icons/fa6";
+import { GrInstagram } from "react-icons/gr";
+import { FaFacebook } from "react-icons/fa";
 function Footer() {
   return (
-    <>
- <footer className="bg-white ">
-    <div className="container page-padding py-[10rem]">
-      {/* footer div all */}
-      <div className="flex justify-between min620:flex-col min620:items-center min620:text-center min620:gap-[5rem] !text-left">
-        {/* logo side */}
-        <div className="flex flex-col w-1/3 gap-8">
-          {/* <img src={FooterLogo} alt="footer_logo" className="w-[18rem]" /> */}
-          <p className="text-[15px] font-medium text-[#646464]">
-            Take your health and body to the next level with our
-            comprehensive program designed to help you reach your fitness
-            goals.
-          </p>
-          {/* socials */}
-          <div className="flex gap-7 text-[18px] text-[#646464] min540:justify-center">
-            <i
-              style={{ transition: "all 0.3s" }}
-              className="fa-brands fa-facebook-f bg-[#efefef] p-4 rounded-full px-[14px] hover:bg-[#ff0366] hover:text-white"
-            ></i>
-            <i
-              style={{ transition: "all 0.3s" }}
-              className="fa-brands fa-twitter bg-[#efefef] p-4 rounded-full hover:bg-[#ff0366] hover:text-white"
-            ></i>
-            <i
-              style={{ transition: "all 0.3s" }}
-              className="fa-brands fa-pinterest-p bg-[#efefef] p-4 rounded-full px-[14px] hover:bg-[#ff0366] hover:text-white"
-            ></i>
-            <i
-              style={{ transition: "all 0.3s" }}
-              className="fa-brands fa-youtube bg-[#efefef] p-4 rounded-full hover:bg-[#ff0366] hover:text-white"
-            ></i>
-          </div>
-          <p className="text-[16px] font-medium text-[#646464]">
-            Privacy Policy | © {new Date().getFullYear()} GymTraction <br />{" "}
-            Design by{" "}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="#/Harshit"
-            >
-              Shailja Gupat
-            </a>
-          </p>
+    <div className='footer'>
+    <div className='first'>
+        <h1>CC CAFE</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam alias sequi sint adipisci excepturi?</p>
+        <div className='socialIcons'>
+<FaFacebook/>
+<GrInstagram/>
+<FaTwitter/>
         </div>
-
-        {/* middle div */}
-        <div className="flex flex-col gap-8 relative">
-          <p className="text-[22px] font-bold footer-main">Our Classes</p>
-
-          <span className="top-[33px] absolute w-[7rem] h-[4px] bg-[#ff0366]"></span>
-
-          <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
-            Fitness Classes
-          </p>
-          <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
-            Aerobics Classes
-          </p>
-          <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
-            Power Yoga
-          </p>
-          <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
-            Learn Machines
-          </p>
-          <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
-            Full-body Strength
-          </p>
-        </div>
-
-        {/* right div */}
-        <div className="flex flex-col gap-8 relative">
-          <p className="text-[22px] font-bold footer-main">Working Hours</p>
-
-          <span className="top-[33px] absolute w-[7rem] h-[4px] bg-[#ff0366]"></span>
-
-          <p className="text-[16px]  text-[#646464] font-bold">
-            Monday - Friday:
-          </p>
-          <p className="text-[16px] text-[#646464] font-medium">
-            7:00am - 21:00pm
-          </p>
-          <p className="text-[16px] text-[#646464] font-bold">Saturday:</p>
-          <p className="text-[16px] text-[#646464] font-medium">
-            7:00am - 19:00pm
-          </p>
-          <p className="text-[16px] text-[#646464] font-bold ">
-            Sunday - Closed
-          </p>
-        </div>
-
-        {/* middle div */}
-        <span></span>
-      </div>
     </div>
-  </footer>
-    </>
+    <div >
+        <h3>Useful Links</h3>
+            <ul>
+                <li>Privacy</li>
+                <li>Returns</li>
+                <li>terms & conditions</li>
+                <li>our sitemap</li>
+                <li>latest news</li>
+                <li>bLogs</li>
+            </ul>
+        
+    </div>
+    <div>
+        <h3>Let's help you</h3>
+        <ul>
+            <li>Account</li>
+            <li>password</li>
+            <li>recovery</li>
+            <li>get help</li>
+            <li>purchase information</li>
+            <li>purchase details</li>
+        </ul>
+    </div>
+    <div className='form'>
+        <h3>Subscribe</h3>
+        <input type="text" />
+        <button>Subscribe now</button>
+    </div>
+    </div>
    
   )
 }
