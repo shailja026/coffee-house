@@ -1,0 +1,90 @@
+:root {
+    /* Colors */
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: rgba(139, 62, 7, 0.956);
+    --background-color: #ecf0f1;
+    --text-color: #34495e;
+  
+    /* Fonts */
+    --main-font-family: 'Arial', sans-serif;
+    --heading-font-family: 'Roboto', sans-serif;
+    --base-font-size: 16px;
+}
+.MainPage{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.tagLine{
+    background-color: var(--accent-color);
+    height: 10%;
+    width: 100vw;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+  
+    color: var(--background-color);
+}
+.tagLine h3{
+    font-size: 1.9rem;
+    font-family: var(--heading-font-family);
+    text-align: center;
+    
+}
+.content_page{
+    /* background-image: url("https://media.istockphoto.com/id/1254676660/photo/delicious-fresh-coffee.jpg?s=612x612&w=0&k=20&c=MvA0-XiRhVzo8zNuSa1g82IlExeZNpA5iXQexJAQY50="); */
+    background: url("../assests/cafemain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100vw;
+    position: relative;
+    top: 10%;
+    height: 90%;
+}
+.content{
+    color: var(--background-color);
+    width: 470px;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 4rem;
+    text-align: left;
+    height: auto;
+}
+.content h1{
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content p{
+  color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content h1 span{
+color:brown;
+
+}
+.content button{
+    padding: 9px;
+    margin: 4px;
+    border: 1px solid brown;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 6px;
+    background:transparent;
+    cursor: pointer;
+}
+#btn1:active{
+    background-color: brown;
+
+}
+.content button:hover{
+background-color: brown;
+}

@@ -1,0 +1,66 @@
+
+:root {
+    /* Colors */
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: rgba(139, 62, 7, 0.956);
+    --background-color: #ecf0f1;
+    --text-color: #34495e;
+  
+    /* Fonts */
+    --main-font-family: 'Arial', sans-serif;
+    --heading-font-family: 'Roboto', sans-serif;
+    --base-font-size: 16px;
+}
+
+.secondpage{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(239, 221, 221, 0.797);
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-bottom: 2px solid brown;
+    height: 70px;
+    padding-bottom: 10px;
+
+}
+.navbar li{
+    list-style: none;
+    margin: auto;
+}
+.contentsection{
+    display: flex;
+    color: black;
+    width: 80%;
+    margin: auto;
+}
+.travelMug{
+    width: 50%;
+    display: flex;
+}
+/* .travelMug img{
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+} */
+#firstImg{
+    height: 450px;
+    width: 300px;
+    object-fit: cover;
+    z-index: 20;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#secondImg{
+    width: 300px;
+    height: 500px;
+    object-fit: contain;
+   
+}
+.content{
+    height: 600px;
+}
